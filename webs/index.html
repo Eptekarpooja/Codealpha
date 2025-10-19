@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Poppins for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+    </div>
+
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">Poo</span><span class="logo-accent">ja</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="heroine">
+            <div class="container">
+                <div class="heroine-content">
+                    <div class="heroine-text reveal">
+                        <p class="heroine-greeting">Hello, I'm</p>
+                        <h1 class="heroine-title">
+                            <span class="text-gradient">Pooja</span>
+                        </h1>
+                        <div class="heroine-subtitle">
+                            <span class="subtitle-text">I'm a </span>
+                            <span class="dynamic-text">
+                                <span class="text-item active">Full Stack Developer</span>
+                                <span class="text-item">UI/UX Designer</span>
+                                <span class="text-item">Problem Solver</span>
+                            </span>
+                        </div>
+                        <p class="heroine-description">
+                            I create beautiful, functional websites and applications with modern technologies. Passionate about clean code and exceptional user experiences.
+                        </p>
+                        <div class="heroine-buttons">
+                            <a href="#projects" class="btn btn-primary">
+                                <span>View My Work</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="heroine-socials">
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="heroine-image reveal">
+                        <div class="heroine-image-container">
+                            <div class="heroine-image-bg"></div>
+                            <div class="heroine-image-placeholder">
+                                <img src="pooja.jpeg" alt="Pooja" class="profile-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get To Know More</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <div class="about-image">
+                        <div class="about-image-container">
+                            <div class="about-image-bg"></div>
+                            <img src="puja.jpeg" alt="About Me" class="about-img">
+                            <div class="experience-badge">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>I have always been passionate about technology and creativity, and web development perfecly combines both. the idea of building something from scratch turning an idea into a functional, visually appealing website-truly excites me. I enjoy solving problems, learning new tools and languages, and keeping up with the constantly evoling world of the web.</p>
+                        <p>Becoming a web developer allows me to express my creativity through design while using logic and code to make things work. my goal is to create user-friendly, responsive, and meaningful websites that make a positive impact and improve peoples online experiences.</p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>pooja@example.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>India, Hyderabad</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-globe"></i>
+                                <span>www.pooja.com</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">
+                            <span>Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Expertise</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                <div class="skills-content reveal">
+                    <div class="skills-categories">
+                        <div class="skill-category active" data-category="frontend">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Frontend</span>
+                            </div>
+                        <div class="skill-category" data-category="backend">
+                            <i class="fas fa-server"></i>
+                            <span>Backend</span>
+                        </div>
+                    </div>
+                        
+                    <div class="skills-grid">
+                        <div class="skill-items frontend active">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>HTML5</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="95"></div>
+                                    </div>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>CSS3</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>React</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-items backend">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Node.js</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="75"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Python</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="70"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>MongoDB</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="65"></div>
+                                    </div>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>PostgreSQL</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="70"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-items tools">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Git</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Docker</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="60"></div>
+                                    </div>
+                                    <span class="skill-percent">60%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>AWS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="55"></div>
+                                    </div>
+                                    <span class="skill-percent">55%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-npm"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>NPM</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                <div class="projects-filter reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="app">Applications</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal" data-category="web">
+                        <div class="project-image">
+                            <img src="https://picsum.photos/seed/ecommerce/600/400.jpg" alt="Restaurant Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="View Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Restaurant Website</h3>
+                            <p class="project-description">" Explore our menu, book table, and enjoy mouth-watering meals made with love."</p>
+                            <div class="project-tags">
+                                <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal" data-category="app">
+                        <div class="project-image">
+                            <img src="https://picsum.photos/seed/taskapp/600/400.jpg" alt="Travelling Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="View Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Travelling Website</h3>
+                            <p class="project-description">"A modern travel website designed using HTML, CSS, and JavaScript. find top destinations, travel tips, and inspiration for your next trip. Experience the joy of traveling through a seamless digital journey."</p>
+                            <div class="project-tags">
+                                <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                <div class="contact-content reveal">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>pooja@example.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>12345678</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>India, Hyd</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Poo</span><span class="logo-accent">ja</span>
+                </div>
+                <p>&copy; Pooja. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
